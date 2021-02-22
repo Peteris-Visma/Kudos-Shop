@@ -13,5 +13,7 @@ namespace KudoShopBackEnd
         public string Summary { get; set; }
 
         public string TestValue { get; set; }
+
+        public string TestValue2 { get; set; }
     }
 }
