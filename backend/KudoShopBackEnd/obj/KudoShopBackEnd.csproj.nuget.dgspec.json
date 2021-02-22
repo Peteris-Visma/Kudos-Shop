@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\andrejs.atkacuns\\source\\repos\\KudoShopBackEnd\\KudoShopBackEnd\\KudoShopBackEnd.csproj": {}
+    "C:\\Users\\andrejs.atkacuns\\Source\\Repos\\Kudos-Shop\\backend\\KudoShopBackEnd\\KudoShopBackEnd.csproj": {}
   },
   "projects": {
-    "C:\\Users\\andrejs.atkacuns\\source\\repos\\KudoShopBackEnd\\KudoShopBackEnd\\KudoShopBackEnd.csproj": {
+    "C:\\Users\\andrejs.atkacuns\\Source\\Repos\\Kudos-Shop\\backend\\KudoShopBackEnd\\KudoShopBackEnd.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\andrejs.atkacuns\\source\\repos\\KudoShopBackEnd\\KudoShopBackEnd\\KudoShopBackEnd.csproj",
+        "projectUniqueName": "C:\\Users\\andrejs.atkacuns\\Source\\Repos\\Kudos-Shop\\backend\\KudoShopBackEnd\\KudoShopBackEnd.csproj",
         "projectName": "KudoShopBackEnd",
-        "projectPath": "C:\\Users\\andrejs.atkacuns\\source\\repos\\KudoShopBackEnd\\KudoShopBackEnd\\KudoShopBackEnd.csproj",
+        "projectPath": "C:\\Users\\andrejs.atkacuns\\Source\\Repos\\Kudos-Shop\\backend\\KudoShopBackEnd\\KudoShopBackEnd.csproj",
         "packagesPath": "C:\\Users\\andrejs.atkacuns\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\andrejs.atkacuns\\source\\repos\\KudoShopBackEnd\\KudoShopBackEnd\\obj\\",
+        "outputPath": "C:\\Users\\andrejs.atkacuns\\Source\\Repos\\Kudos-Shop\\backend\\KudoShopBackEnd\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"
