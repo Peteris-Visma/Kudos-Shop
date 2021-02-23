@@ -4,9 +4,8 @@ import React, { Component } from "react";
 export default class Policy extends Component {
   render() {
     return (
-      <div> 
-          Policy page
-      </div>
+      <iframe src= "https://docs.google.com/document/d/1hTJFLue2bNU-NjKNZ9iJ6nWZvKSOxh8y6sbOI1H9Fpg/edit" width="100%" height="800"> </iframe>
+      
     );
   }
 }
