@@ -1,8 +1,10 @@
 import React, { Component } from 'react'
-import { LineChart, Line, CartesianGrid, XAxis, YAxis, Tooltip } from 'recharts';
+import {ResponsiveContainer, LineChart, Line, CartesianGrid, XAxis, YAxis, Tooltip } from 'recharts';
 import * as ReactBootstrap from 'react-bootstrap';
+import Flippy, { FrontSide, BackSide } from 'react-flippy';
 
 import '../App.css';
+import Logo from '../Components/KP.png';
 
 
     
@@ -37,7 +39,16 @@ const Account = () => {
             )
         }
 
-        
+        const FlippyStyle = {
+            width: '300px',
+            height: '250px',
+            textAlign: 'center',
+            color: 'black',
+            fontFamily: 'sans-serif',
+            fontSize: '25px',
+            justifyContent: 'center',
+            backgroundColor: 'white'
+          }
         
 
         
@@ -45,20 +56,42 @@ const Account = () => {
             
             <div className="Account" >
 
-                 <div id="div1">
-                     <h1>Name: Roberts</h1> 
-                     <h1>Surname:Kartenko</h1>
-                     <h1>Kudos:1012</h1>
+                 <div id="div1" > 
+                 <Flippy
+                    flipOnHover={true} 
+                    flipOnClick={false} 
+                    flipDirection="horizontal" 
+                    
+                    
+                   
+                    
+                    style={{ width: '300px', height: '250px', FlippyStyle }} 
+                >
+                    <FrontSide
+                    style={{
+                        backgroundColor: 'Pink',
+                    }}
+                    >
+                    Account info   
+                    Name:Roberts
+                    Surname:Kartenko   
+                    
+                    </FrontSide>
+                    <BackSide
+                    style={FlippyStyle }>
+                    You have 457 <img src={Logo} className="logo"/>  
+                    </BackSide>
+                </Flippy>
                 </div>
-                <div id="divContainer">
-                <LineChart width={1500} height={300} data={data} margin={{ top: 5, right: 0, bottom: 5, left: 600 }}>
-                    <Line type="monotone" dataKey="Kudos"  stroke="#8884d8" />
-                    <CartesianGrid stroke="#ccc" strokeDasharray="5 5" />
+                <ResponsiveContainer width="100%" height={300}>
+                <LineChart width={1500} height={300} data={data} margin={{ top: 5, right: 50, bottom: 5, left: 600 }}>
+                    <Line type="monotone" dataKey="Kudos" strokeWidth={4} stroke="#ec043c" />
+                    <CartesianGrid stroke="#ccc"  />
                     <XAxis dataKey="Date"  />
                     <YAxis  />
                     <Tooltip />
                 </LineChart>
-                </div>
+                </ResponsiveContainer>
 
                 
             

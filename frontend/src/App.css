@@ -45,17 +45,31 @@ body{
   width: 1%;
 }
 div#divContainer{
-  Left:390px;
-  width:auto;
-  position:-webkit-sticky;
-  position:sticky;
+  position:fixed;
+   left:100px;
+   top:150px;
 
 }
+
+
+.recharts-responsive-container {
+  
+}
+
+
 div#div1{
-  height:100px;
-  width:500px;
-  right:-70px;
-  top:120px;
-  position:relative;
+ 
+ left:70px;
+ top:120px;
+  
 
 }
+
+.logo {
+  height: 30px;
+  
+  width: 30px;
+  
+
+}
+
