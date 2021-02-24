@@ -24,6 +24,14 @@
   color: white;
 }
 
+.element {
+  margin-top: 50px;
+}
+
+.elementOne {
+  margin-top: 100px;
+}
+
 .App-link {
   color: #61dafb;
 }
@@ -38,4 +46,29 @@
 }
 body{
   height: 2000px;
+}
+
+.table{
+  white-space: nowrap;
+  width: 1%;
+}
+div#divContainer{
+  position:fixed;
+   left:100px;
+   top:150px;
+
+}
+
+
+.recharts-responsive-container {
+  
+}
+
+
+div#div1{
+ 
+ left:70px;
+ top:120px;
+  
+
 }
