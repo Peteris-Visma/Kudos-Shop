@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "J+0qqsKxY6C+cq0qsIVWqIvT4P5NJiWVlRctKJDT7SAku2xmbBYGPkw10vgSbRu6L4KQTd0pbWEeq4b+/lNmow==",
+  "dgSpecHash": "jGMeb4XYj2vn0mfMF+XALWnRGeq7rtUkVahRKVLchpKcYzuxmtcY0HZh0lar4G+Ff2Y54rJWwd5uqziLhaTidg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\filips.zoltners\\Source\\Repos\\Kudos-Shop\\backend\\BusinessLayer\\BusinessLayer.csproj",
+  "projectFilePath": "C:\\Users\\filips.zoltners\\source\\repos\\Kudos-Shop\\backend\\BusinessLayer\\BusinessLayer.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\filips.zoltners\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
     "C:\\Users\\filips.zoltners\\.nuget\\packages\\microsoft.data.sqlclient\\2.0.1\\microsoft.data.sqlclient.2.0.1.nupkg.sha512",

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\filips.zoltners\\Source\\Repos\\Kudos-Shop\\backend\\AutoTests\\AutoTests.csproj": {}
+    "C:\\Users\\filips.zoltners\\source\\repos\\Kudos-Shop\\backend\\AutoTests\\AutoTests.csproj": {}
   },
   "projects": {
-    "C:\\Users\\filips.zoltners\\Source\\Repos\\Kudos-Shop\\backend\\AutoTests\\AutoTests.csproj": {
+    "C:\\Users\\filips.zoltners\\source\\repos\\Kudos-Shop\\backend\\AutoTests\\AutoTests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\filips.zoltners\\Source\\Repos\\Kudos-Shop\\backend\\AutoTests\\AutoTests.csproj",
+        "projectUniqueName": "C:\\Users\\filips.zoltners\\source\\repos\\Kudos-Shop\\backend\\AutoTests\\AutoTests.csproj",
         "projectName": "AutoTests",
-        "projectPath": "C:\\Users\\filips.zoltners\\Source\\Repos\\Kudos-Shop\\backend\\AutoTests\\AutoTests.csproj",
+        "projectPath": "C:\\Users\\filips.zoltners\\source\\repos\\Kudos-Shop\\backend\\AutoTests\\AutoTests.csproj",
         "packagesPath": "C:\\Users\\filips.zoltners\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\filips.zoltners\\Source\\Repos\\Kudos-Shop\\backend\\AutoTests\\obj\\",
+        "outputPath": "C:\\Users\\filips.zoltners\\source\\repos\\Kudos-Shop\\backend\\AutoTests\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\filips.zoltners\\AppData\\Roaming\\NuGet\\NuGet.Config",

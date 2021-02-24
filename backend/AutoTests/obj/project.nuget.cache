@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "LRQNwwnJ1qOsaOEsCASHu4k1+TxSsVJAHhIEoklIuFLrnWiOzZNDvBhXqsmOKs1+iiSJCmR3pMU44SXbFdYmDQ==",
+  "dgSpecHash": "nXN1IFZDjrwSJ/VMHfwlW74QuaUoaeUb08bL9dC6fMtHUMnqqbI5RhUxP7Sw/WlWIKuC0sL1tFAQrPDdbfgAmw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\filips.zoltners\\Source\\Repos\\Kudos-Shop\\backend\\AutoTests\\AutoTests.csproj",
+  "projectFilePath": "C:\\Users\\filips.zoltners\\source\\repos\\Kudos-Shop\\backend\\AutoTests\\AutoTests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\filips.zoltners\\.nuget\\packages\\coverlet.collector\\1.2.0\\coverlet.collector.1.2.0.nupkg.sha512",
     "C:\\Users\\filips.zoltners\\.nuget\\packages\\microsoft.codecoverage\\16.5.0\\microsoft.codecoverage.16.5.0.nupkg.sha512",

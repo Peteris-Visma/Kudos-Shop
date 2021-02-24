@@ -21,7 +21,6 @@ namespace KudoShopBackEnd.Controllers
 
         [HttpDelete]
         [Route("DeleteProducts")]
-
         public void RemoveProduct(int id)
         {
             var handler = new ProductService();

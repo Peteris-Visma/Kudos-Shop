@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "fFWhikfJjAHjmi+X2Hc31unn9app7cr2pDgxVQQWJl+C5psPYjW/aj5fBefRNy/jwjydYOFvfSiFWQT71mbJiQ==",
+  "dgSpecHash": "Ny+UCQ1xzk+oEhIkMBIs+ugYFPDKB3wS5dV1nMr6wbHtcxIol3j8p1j/7h8/LG1xz+MYWQomVp7W5pA+yl24bw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\filips.zoltners\\Source\\Repos\\Kudos-Shop\\backend\\DbLayer\\DbLayer.csproj",
+  "projectFilePath": "C:\\Users\\filips.zoltners\\source\\repos\\Kudos-Shop\\backend\\DbLayer\\DbLayer.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\filips.zoltners\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\filips.zoltners\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",

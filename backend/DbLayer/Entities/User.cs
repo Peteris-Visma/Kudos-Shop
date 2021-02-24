@@ -21,7 +21,9 @@ namespace DbLayer.Entities
         [Required]
         public bool IsAdmin { get; set; }
         public string Token { get; set; }//for JWT token (Google) 
-        public virtual List<Purchase> Purchaseš { get; set; }
+        [Required]
+        public string Password { get; set; }       
+        public virtual List<Purchase> Purchase { get; set; }
 
     }
 }

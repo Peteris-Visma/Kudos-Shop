@@ -7,11 +7,11 @@ using Microsoft.EntityFrameworkCore.Metadata;
 using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
-namespace DbLayer.Migrations
+namespace DbLayer.MyMigrationDir
 {
     [DbContext(typeof(KudoContext))]
-    [Migration("20210222223358_Init")]
-    partial class Init
+    [Migration("20210224093929_MyMigration")]
+    partial class MyMigration
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
@@ -114,6 +114,10 @@ namespace DbLayer.Migrations
                         .HasMaxLength(30)
                         .HasColumnType("nvarchar(30)");
 
+                    b.Property<string>("Password")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
                     b.Property<int>("RoleId")
                         .HasColumnType("int");
 
@@ -141,7 +145,7 @@ namespace DbLayer.Migrations
                         .IsRequired();
 
                     b.HasOne("DbLayer.Entities.User", "User")
-                        .WithMany("Purchaseš")
+                        .WithMany("Purchase")
                         .HasForeignKey("UserId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
@@ -174,7 +178,7 @@ namespace DbLayer.Migrations
 
             modelBuilder.Entity("DbLayer.Entities.User", b =>
                 {
-                    b.Navigation("Purchaseš");
+                    b.Navigation("Purchase");
                 });
 #pragma warning restore 612, 618
         }

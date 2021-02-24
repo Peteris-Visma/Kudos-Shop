@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\filips.zoltners\\Source\\Repos\\Kudos-Shop\\backend\\DbLayer\\DbLayer.csproj": {}
+    "C:\\Users\\filips.zoltners\\source\\repos\\Kudos-Shop\\backend\\DbLayer\\DbLayer.csproj": {}
   },
   "projects": {
-    "C:\\Users\\filips.zoltners\\Source\\Repos\\Kudos-Shop\\backend\\DbLayer\\DbLayer.csproj": {
+    "C:\\Users\\filips.zoltners\\source\\repos\\Kudos-Shop\\backend\\DbLayer\\DbLayer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\filips.zoltners\\Source\\Repos\\Kudos-Shop\\backend\\DbLayer\\DbLayer.csproj",
+        "projectUniqueName": "C:\\Users\\filips.zoltners\\source\\repos\\Kudos-Shop\\backend\\DbLayer\\DbLayer.csproj",
         "projectName": "DbLayer",
-        "projectPath": "C:\\Users\\filips.zoltners\\Source\\Repos\\Kudos-Shop\\backend\\DbLayer\\DbLayer.csproj",
+        "projectPath": "C:\\Users\\filips.zoltners\\source\\repos\\Kudos-Shop\\backend\\DbLayer\\DbLayer.csproj",
         "packagesPath": "C:\\Users\\filips.zoltners\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\filips.zoltners\\Source\\Repos\\Kudos-Shop\\backend\\DbLayer\\obj\\",
+        "outputPath": "C:\\Users\\filips.zoltners\\source\\repos\\Kudos-Shop\\backend\\DbLayer\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\filips.zoltners\\AppData\\Roaming\\NuGet\\NuGet.Config",
