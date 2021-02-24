@@ -1,18 +1,11 @@
-import React, { Component } from 'react';
-import { Media, Container, Row, Col } from "react-bootstrap";
-import DropdownSize from "../Components/DropdownSize"
-
-import Paper from '../Components/Paper'
-
-
+import React, { Component } from 'react'
 
 export default class Shop extends Component {
     render() {
         return (
-            
-            //< DropdownSize/>
-             < Paper/>
-           
-        );
+            <div>
+                Hello Shop
+            </div>
+        )
     }
 }
