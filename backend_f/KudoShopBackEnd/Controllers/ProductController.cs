@@ -20,7 +20,7 @@ namespace KudoShopBackEnd.Controllers
 
 
         [HttpDelete]
-        [Route("DeleteProducts")]
+        [Route("DeleteProducts/{id:int}")]
 
         public void RemoveProduct(int id)
         {

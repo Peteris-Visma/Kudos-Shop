@@ -1,12 +1,15 @@
-﻿using BusinessLayer.Services;
+﻿using BusinessLayer.Models.Output;
+using BusinessLayer.Services;
 using Microsoft.AspNetCore.Mvc;
 
 namespace KudoShopBackEnd.Controllers
 {
+    [Route("api/[controller]")]
+    [ApiController]
     public class UserController : ControllerBase
     {
-        [HttpPost]
-        [Route("GetMyKudos")]
+        [HttpGet]
+        [Route("GetMyKudos/{id:int}")]
         public IActionResult GetMyKudos(int id)//todo talk about parameter - better using login or token
         {
             var handler = new UserService();
@@ -16,10 +19,10 @@ namespace KudoShopBackEnd.Controllers
 
         [HttpPost]
         [Route("SendKudos")]
-        public IActionResult SendKudos(int senderId, int recieverId, int amount)//Admin to Employee      and      Employee to employee
+        public IActionResult SendKudos(SendKudosModel model)
         {
             var handler = new UserService();
-            handler.SendKudos(senderId, recieverId, amount);
+            handler.SendKudos(model);
             return NoContent();
         }
     }

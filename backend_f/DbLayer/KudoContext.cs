@@ -18,7 +18,7 @@ namespace DbLayer
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseSqlServer("Server=LV-LAS-SC-0073;Database=VismaKudos;Trusted_Connection=True;");
+            optionsBuilder.UseSqlServer("Server=LV-LAS-SC-0078;Database=VismaKudos;Trusted_Connection=True;");
         }
     }
 }

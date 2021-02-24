@@ -4,6 +4,7 @@ namespace BusinessLayer.Models.Input
 {
     public class ProductModel
     {
+        public int Id { get; set; }
         public string NameP { get; set; }
         public int PriceP { get; set; }
         public bool IsAvailableP { get; set; }
@@ -13,6 +14,7 @@ namespace BusinessLayer.Models.Input
         {
             return new Product
             {
+                Id = Id,
                 IsAvailable = IsAvailableP,
                 Price = PriceP,
                 Name = NameP,
