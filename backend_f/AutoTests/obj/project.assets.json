@@ -3504,19 +3504,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\raimonds.dacis\\.nuget\\packages\\": {}
+    "C:\\Users\\peteris.savickis\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\raimonds.dacis\\Documents\\GitHub\\Kudos-Shop\\backend_f\\AutoTests\\AutoTests.csproj",
+      "projectUniqueName": "C:\\Users\\peteris.savickis\\Documents\\GitHub\\Kudos-Shop\\backend_f\\AutoTests\\AutoTests.csproj",
       "projectName": "AutoTests",
-      "projectPath": "C:\\Users\\raimonds.dacis\\Documents\\GitHub\\Kudos-Shop\\backend_f\\AutoTests\\AutoTests.csproj",
-      "packagesPath": "C:\\Users\\raimonds.dacis\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\raimonds.dacis\\Documents\\GitHub\\Kudos-Shop\\backend_f\\AutoTests\\obj\\",
+      "projectPath": "C:\\Users\\peteris.savickis\\Documents\\GitHub\\Kudos-Shop\\backend_f\\AutoTests\\AutoTests.csproj",
+      "packagesPath": "C:\\Users\\peteris.savickis\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\peteris.savickis\\Documents\\GitHub\\Kudos-Shop\\backend_f\\AutoTests\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\raimonds.dacis\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\peteris.savickis\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [

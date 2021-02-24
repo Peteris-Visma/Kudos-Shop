@@ -1,6 +1,7 @@
 ﻿using BusinessLayer.Models.Output;
 using DbLayer;
 using System;
+using System.Collections.Generic;
 using System.Linq;
 
 namespace BusinessLayer.Services
@@ -44,6 +45,11 @@ namespace BusinessLayer.Services
                 db.Update(reciever);
             }
             db.SaveChanges();
+        }
+        public List<UserInfoModel> GetAllUserNamesAndIds()
+        {
+            using var context = new KudoContext();
+            return context.Users.Select(x => new UserInfoModel(x.Id, x.Name, x.Surname)).ToList();
         }
     }
 }

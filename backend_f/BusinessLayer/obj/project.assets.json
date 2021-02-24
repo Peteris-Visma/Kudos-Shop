@@ -5720,19 +5720,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\raimonds.dacis\\.nuget\\packages\\": {}
+    "C:\\Users\\peteris.savickis\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\raimonds.dacis\\Documents\\GitHub\\Kudos-Shop\\backend_f\\BusinessLayer\\BusinessLayer.csproj",
+      "projectUniqueName": "C:\\Users\\peteris.savickis\\Documents\\GitHub\\Kudos-Shop\\backend_f\\BusinessLayer\\BusinessLayer.csproj",
       "projectName": "BusinessLayer",
-      "projectPath": "C:\\Users\\raimonds.dacis\\Documents\\GitHub\\Kudos-Shop\\backend_f\\BusinessLayer\\BusinessLayer.csproj",
-      "packagesPath": "C:\\Users\\raimonds.dacis\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\raimonds.dacis\\Documents\\GitHub\\Kudos-Shop\\backend_f\\BusinessLayer\\obj\\",
+      "projectPath": "C:\\Users\\peteris.savickis\\Documents\\GitHub\\Kudos-Shop\\backend_f\\BusinessLayer\\BusinessLayer.csproj",
+      "packagesPath": "C:\\Users\\peteris.savickis\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\peteris.savickis\\Documents\\GitHub\\Kudos-Shop\\backend_f\\BusinessLayer\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\raimonds.dacis\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\peteris.savickis\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -5746,8 +5746,8 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "C:\\Users\\raimonds.dacis\\Documents\\GitHub\\Kudos-Shop\\backend_f\\DbLayer\\DbLayer.csproj": {
-              "projectPath": "C:\\Users\\raimonds.dacis\\Documents\\GitHub\\Kudos-Shop\\backend_f\\DbLayer\\DbLayer.csproj"
+            "C:\\Users\\peteris.savickis\\Documents\\GitHub\\Kudos-Shop\\backend_f\\DbLayer\\DbLayer.csproj": {
+              "projectPath": "C:\\Users\\peteris.savickis\\Documents\\GitHub\\Kudos-Shop\\backend_f\\DbLayer\\DbLayer.csproj"
             }
           }
         }

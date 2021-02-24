@@ -25,5 +25,14 @@ namespace KudoShopBackEnd.Controllers
             handler.SendKudos(model);
             return NoContent();
         }
+        [HttpGet]
+        [Route("GetUsers")]
+
+        public IActionResult GetUsers()
+        {
+            var handler = new UserService();
+            var users = handler.GetAllUserNamesAndIds();
+            return Ok(users);
+        }
     }
 }
