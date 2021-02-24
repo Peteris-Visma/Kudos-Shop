@@ -56,19 +56,30 @@ div#divContainer{
   position:fixed;
    left:100px;
    top:150px;
+   overflow: hidden;
 
 }
 
 
-.recharts-responsive-container {
+
+.logo{
+height: 35px;
+width: 35px;
+
+}
+
+#card{
+  position:static;
+  left: 150px;
+  top: 150px;
   
 }
-
-
-div#div1{
+#div1 {
+  width: 300px;
+    float:left; /* add this */
+    
+}
+#div2 {
  
- left:70px;
- top:120px;
-  
-
+    overflow: hidden; /* if you don't want #second to wrap below #first */
 }

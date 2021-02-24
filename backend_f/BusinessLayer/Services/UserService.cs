@@ -1,4 +1,5 @@
-﻿using DbLayer;
+﻿using BusinessLayer.Models.Output;
+using DbLayer;
 using System;
 using System.Linq;
 
@@ -15,29 +16,29 @@ namespace BusinessLayer.Services
             return user.Balance;
         }
 
-        public void SendKudos(int senderId, int recieverId, int amount)
+        public void SendKudos(SendKudosModel model)
         {
             using var db = new KudoContext();
-            var sender = db.Users.FirstOrDefault(x => x.Id == senderId);
+            var sender = db.Users.FirstOrDefault(x => x.Id == model.SenderId);
             if (sender == null)
                 throw new Exception("Sender not found");
 
-            if (!sender.IsAdmin && sender.Balance< amount)
+            if (!sender.IsAdmin && sender.Balance< model.Amount)
                 throw new Exception("Sender have no so much money");//todo change error text
 
-            var reciever = db.Users.FirstOrDefault(x => x.Id == recieverId);
+            var reciever = db.Users.FirstOrDefault(x => x.Id == model.RecieverId);
             if (reciever == null)
                 throw new Exception("Reciever not found");
 
             if (sender.IsAdmin)
             {
-                reciever.Balance += amount;
+                reciever.Balance += model.Amount;
                 db.Update(reciever);
             }
             else
             {
-                sender.Balance -= amount;
-                reciever.Balance += amount;
+                sender.Balance -= model.Amount;
+                reciever.Balance += model.Amount;
 
                 db.Update(sender);
                 db.Update(reciever);

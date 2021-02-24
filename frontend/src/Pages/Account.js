@@ -25,8 +25,6 @@ const Account = () => {
             
              ]
         
-
-
         const renderInfo = (Info, index) => {
             return (
                 <tr key={index}>
@@ -40,81 +38,66 @@ const Account = () => {
         }
 
         const FlippyStyle = {
-            width: '300px',
-            height: '250px',
+            width: '250px',
+            height: '150px',
             textAlign: 'center',
-            color: 'black',
+            color: 'Black',
             fontFamily: 'sans-serif',
             fontSize: '25px',
             justifyContent: 'center',
-            backgroundColor: 'white'
+            backgroundColor: '#8f8f8f',   
           }
-        
 
-        
+          const FlippyToggle = {
+            width: '250px',
+            height: '150px',
+            marginLeft: '150px',
+            marginTop: '100px',
+            marginBottom: '50px'
+        }
         return (
             
-            <div className="Account" >
+<div >
+    <div id="div1">
+        <Flippy flipOnHover={true}  flipOnClick={false}  flipDirection="horizontal"  style={FlippyToggle} id="card">
+            <FrontSide style={FlippyStyle }>
+                <h4>Account info </h4>  
+                <h5>Name:Roberts </h5>
+                <h5>Surname:Kartenko </h5>   
+            </FrontSide>
 
-                 <div id="div1" > 
-                 <Flippy
-                    flipOnHover={true} 
-                    flipOnClick={false} 
-                    flipDirection="horizontal" 
-                    
-                    
-                   
-                    
-                    style={{ width: '300px', height: '250px', FlippyStyle }} 
-                >
-                    <FrontSide
-                    style={{
-                        backgroundColor: 'Pink',
-                    }}
-                    >
-                    Account info   
-                    Name:Roberts
-                    Surname:Kartenko   
-                    
-                    </FrontSide>
-                    <BackSide
-                    style={FlippyStyle }>
-                    You have 457 <img src={Logo} className="logo"/>  
-                    </BackSide>
-                </Flippy>
-                </div>
-                <ResponsiveContainer width="100%" height={300}>
-                <LineChart width={1500} height={300} data={data} margin={{ top: 5, right: 50, bottom: 5, left: 600 }}>
-                    <Line type="monotone" dataKey="Kudos" strokeWidth={4} stroke="#ec043c" />
-                    <CartesianGrid stroke="#ccc"  />
-                    <XAxis dataKey="Date"  />
-                    <YAxis  />
-                    <Tooltip />
-                </LineChart>
-                </ResponsiveContainer>
+            <BackSide style={FlippyStyle }>
+                <h4>You have </h4>  457 <img src={Logo} className="logo"/>  
+            </BackSide>
 
-                
-            
-            <ReactBootstrap.Table striped bordered hover size="sm">
-            <thead>
-                <tr>
-                <th>Number</th>
-                <th>Date</th> 
-                <th>Kudos</th> 
-                <th>Description</th> 
-                <th>Status</th>   
-                </tr>
-            </thead>
-            <tbody>
-                {data.map(renderInfo)}
-            </tbody>
-            
-            
-            
-            </ReactBootstrap.Table>
-
-
-          </div>
+        </Flippy>
+    </div>     
+    <div id="div2">  
+        <ResponsiveContainer width="100%" height={300} >
+            <LineChart width={1500} height={400} data={data} margin={{ top: 50, right: 50, bottom: 0, left: 200 }}>
+                <Line type="monotone" dataKey="Kudos" strokeWidth={4} stroke="#ec043c" />
+                <CartesianGrid stroke="#ccc"  />
+                <XAxis dataKey="Date"  />
+                <YAxis  />
+                <Tooltip />
+            </LineChart>
+        </ResponsiveContainer>
+    </div>
+    <ReactBootstrap.Table striped bordered hover size="sm">
+        <thead>
+            <tr>
+            <th>Number</th>
+            <th>Date</th> 
+            <th>Kudos</th> 
+            <th>Description</th> 
+            <th>Status</th>   
+            </tr>
+        </thead>
+        <tbody>
+            {data.map(renderInfo)}
+        </tbody>
+    </ReactBootstrap.Table>
+</div>
         )
 
     }
