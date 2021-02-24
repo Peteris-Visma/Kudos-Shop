@@ -15,6 +15,7 @@ import Shop from "../Pages/Shop";
 import Transactions from "../Pages/Transactions";
 import Account from "../Pages/Account";
 import Policy from "../Pages/Policy";
+import Login from "./Login/Login";
 
 export default class Header extends Component {
   render() {
@@ -66,6 +67,7 @@ export default class Header extends Component {
             <Route exact path="/transactions" component={Transactions} />
             <Route exact path="/account" component={Account} />
             <Route exact path="/policy" component={Policy} />
+            <Route exact path="/" component={Login} />
           </Switch>
         </Router>
       </>
