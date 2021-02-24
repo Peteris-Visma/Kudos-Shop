@@ -20,14 +20,9 @@ CREATE TABLE Kudos_Transfer (
 	From_User_ID int NOT NULL FOREIGN KEY REFERENCES _User(_User_ID),
 	To_User_ID int NOT NULL FOREIGN KEY REFERENCES _User(_User_ID),
 	Transfer_Amount int NOT NULL,
-	_Description nvarchar,
-	_Date Date NOT NULL
-);
-
-CREATE TABLE _Property (
-	Property_ID int NOT NULL PRIMARY KEY,
-	Property_Name nvarchar(50) NOT NULL,
-	Property_value nvarchar(50) NOT NULL
+	_Description nvarchar(200),
+	_Date Date NOT NULL,
+	_Status nvarchar(50)
 );
 
 CREATE TABLE Product (
@@ -35,13 +30,11 @@ CREATE TABLE Product (
 	Product_Name nvarchar(50) NOT NULL,
 	Product_Picture varbinary(MAX) NOT NULL,
 	Product_Price int NOT NULL,
-	isAvailable bit NOT NULL,
-	ID_Property int NOT NULL FOREIGN KEY REFERENCES _Property(Property_ID)
+	isAvailable bit NOT NULL
 );
-
 CREATE TABLE Purchase(
-Purchase_ID int NOT NULL IDENTITY(1,1) PRIMARY KEY,
-ID_Product int NOT NULL FOREIGN KEY REFERENCES Product (Product_ID),
-ID_User int NOT NULL FOREIGN KEY REFERENCES _User (_User_ID),
-isApproved bit NOT NULL
-)
+	Purchase_ID int NOT NULL IDENTITY(1,1) PRIMARY KEY,
+	ID_Product int NOT NULL FOREIGN KEY REFERENCES Product (Product_ID),
+	ID_User int NOT NULL FOREIGN KEY REFERENCES _User (_User_ID),
+	isApproved bit NOT NULL
+);
