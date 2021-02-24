@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\peteris.savickis\\Documents\\GitHub\\Kudos-Shop\\backend_f\\AutoTests\\AutoTests.csproj": {}
+    "C:\\Users\\filips.zoltners\\source\\repos\\Kudos-Shop\\backend_f\\AutoTests\\AutoTests.csproj": {}
   },
   "projects": {
-    "C:\\Users\\peteris.savickis\\Documents\\GitHub\\Kudos-Shop\\backend_f\\AutoTests\\AutoTests.csproj": {
+    "C:\\Users\\filips.zoltners\\source\\repos\\Kudos-Shop\\backend_f\\AutoTests\\AutoTests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\peteris.savickis\\Documents\\GitHub\\Kudos-Shop\\backend_f\\AutoTests\\AutoTests.csproj",
+        "projectUniqueName": "C:\\Users\\filips.zoltners\\source\\repos\\Kudos-Shop\\backend_f\\AutoTests\\AutoTests.csproj",
         "projectName": "AutoTests",
-        "projectPath": "C:\\Users\\peteris.savickis\\Documents\\GitHub\\Kudos-Shop\\backend_f\\AutoTests\\AutoTests.csproj",
-        "packagesPath": "C:\\Users\\peteris.savickis\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\peteris.savickis\\Documents\\GitHub\\Kudos-Shop\\backend_f\\AutoTests\\obj\\",
+        "projectPath": "C:\\Users\\filips.zoltners\\source\\repos\\Kudos-Shop\\backend_f\\AutoTests\\AutoTests.csproj",
+        "packagesPath": "C:\\Users\\filips.zoltners\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\filips.zoltners\\source\\repos\\Kudos-Shop\\backend_f\\AutoTests\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\peteris.savickis\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\filips.zoltners\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -72,7 +72,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
         }
       }
     }

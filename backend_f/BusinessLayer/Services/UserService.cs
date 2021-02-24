@@ -1,5 +1,7 @@
-﻿using BusinessLayer.Models.Output;
+﻿using BusinessLayer.Models.Input;
+using BusinessLayer.Models.Output;
 using DbLayer;
+using DbLayer.Entities;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -46,6 +48,35 @@ namespace BusinessLayer.Services
             }
             db.SaveChanges();
         }
+
+        public LoginResult Login(LoginModel model)
+        {
+            if (model == null || string.IsNullOrEmpty(model.Email) || string.IsNullOrEmpty(model.Password))
+                throw new Exception("Incorrect data");
+            model.Email = model.Email.Trim();
+            model.Password = model.Password.Trim();
+            using var db = new KudoContext();
+            var user = db.Users.FirstOrDefault(x => x.Password == model.Password && x.Email == model.Email);
+            if(user==null)
+                throw new Exception("Incorrect login or password");
+            var result = new LoginResult();
+            result.Token = UpdateToken(user, db);//temperary
+            result.Username = user.Name;//temperary
+            return result;
+        }
+
+        private string UpdateToken(User user, KudoContext db)
+        {
+            var rand = new Random();
+            const string chars = "ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789";//characters which we can use to generate random string
+            user.Token = new string(Enumerable.Repeat(chars, 21)//21 - length
+              .Select(s => s[rand.Next(s.Length)]).ToArray());//murgs no interneta.
+
+            db.Users.Update(user);
+            db.SaveChanges();
+            return user.Token;
+        }
+
         public List<UserInfoModel> GetAllUserNamesAndIds()
         {
             using var context = new KudoContext();

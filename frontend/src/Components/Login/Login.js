@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import '../../App.css';
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
+import $ from "jquery";
 
 class LoginPage extends Component {
   constructor() {
@@ -32,6 +33,36 @@ class LoginPage extends Component {
     if (!this.state.password) {
       return toast.error('Password is required')
     }
+    //----------------------------------------------
+
+    $.ajax({
+      url:"https://localhost:44324/api/User/Login",
+      type:"POST",
+      data:JSON.stringify({ Email: this.state.username, password: this.state.password }),
+      contentType:"application/json; charset=utf-8",
+      dataType:"json",
+      success: (msg)=>{
+        localStorage.setItem("token",msg.token);
+        toast.success("Hello "+msg.username);
+        setTimeout(() => {
+          window.location.href = "/home";
+        }, 1000);
+      },
+  error: (XMLHttpRequest, textStatus, errorThrown)=> {console.log(XMLHttpRequest, textStatus, errorThrown);
+    toast.error('Email or password is not correct')
+  }
+    });
+
+
+    //request to backend
+    // $.post("https://localhost:44324/api/User/Login", { Email: this.state.username, Password: this.state.password })
+    //   .then((result) => {
+    //     console.log(result);
+    //   })
+    //   .catch((ex) => {
+    //     return toast.error('Email or password is not correct')
+    //   });
+    //----------------------------------------------
 
     return this.setState({ error: '' });
   }

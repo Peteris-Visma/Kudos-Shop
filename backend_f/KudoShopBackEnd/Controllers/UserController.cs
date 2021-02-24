@@ -1,4 +1,5 @@
-﻿using BusinessLayer.Models.Output;
+﻿using BusinessLayer.Models.Input;
+using BusinessLayer.Models.Output;
 using BusinessLayer.Services;
 using Microsoft.AspNetCore.Mvc;
 
@@ -34,5 +35,16 @@ namespace KudoShopBackEnd.Controllers
             var users = handler.GetAllUserNamesAndIds();
             return Ok(users);
         }
+
+        [HttpPost]
+        [Route("Login")]
+
+        public IActionResult Login([FromBody]LoginModel model)
+        {
+            var handler = new UserService();
+            var users = handler.Login(model);
+            return Ok(users);
+        }
+
     }
 }
