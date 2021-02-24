@@ -19,5 +19,7 @@ yarn add react-flippy
 
 yarn add recharts
 
+yarn add @material-ui/core
+
 yarn start 
 
