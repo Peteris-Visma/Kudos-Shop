@@ -1,0 +1,12 @@
+C:\Users\filips.zoltners\Source\Repos\Kudos-Shop\backend\BusinessLayer\bin\Debug\netcoreapp3.1\BusinessLayer.deps.json
+C:\Users\filips.zoltners\Source\Repos\Kudos-Shop\backend\BusinessLayer\bin\Debug\netcoreapp3.1\BusinessLayer.dll
+C:\Users\filips.zoltners\Source\Repos\Kudos-Shop\backend\BusinessLayer\bin\Debug\netcoreapp3.1\BusinessLayer.pdb
+C:\Users\filips.zoltners\Source\Repos\Kudos-Shop\backend\BusinessLayer\obj\Debug\netcoreapp3.1\BusinessLayer.csprojAssemblyReference.cache
+C:\Users\filips.zoltners\Source\Repos\Kudos-Shop\backend\BusinessLayer\obj\Debug\netcoreapp3.1\BusinessLayer.AssemblyInfoInputs.cache
+C:\Users\filips.zoltners\Source\Repos\Kudos-Shop\backend\BusinessLayer\obj\Debug\netcoreapp3.1\BusinessLayer.AssemblyInfo.cs
+C:\Users\filips.zoltners\Source\Repos\Kudos-Shop\backend\BusinessLayer\obj\Debug\netcoreapp3.1\BusinessLayer.csproj.CoreCompileInputs.cache
+C:\Users\filips.zoltners\Source\Repos\Kudos-Shop\backend\BusinessLayer\obj\Debug\netcoreapp3.1\BusinessLayer.dll
+C:\Users\filips.zoltners\Source\Repos\Kudos-Shop\backend\BusinessLayer\obj\Debug\netcoreapp3.1\BusinessLayer.pdb
+C:\Users\filips.zoltners\Source\Repos\Kudos-Shop\backend\BusinessLayer\bin\Debug\netcoreapp3.1\DbLayer.dll
+C:\Users\filips.zoltners\Source\Repos\Kudos-Shop\backend\BusinessLayer\bin\Debug\netcoreapp3.1\DbLayer.pdb
+C:\Users\filips.zoltners\Source\Repos\Kudos-Shop\backend\BusinessLayer\obj\Debug\netcoreapp3.1\BusinessLayer.csproj.CopyComplete
