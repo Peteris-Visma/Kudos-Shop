@@ -9,6 +9,8 @@ namespace DbLayer
         public DbSet<Product> Products { get; set; }
         public DbSet<Role> Roles { get; set; }
         public DbSet<Purchase> Purchases { get; set; }
+        public DbSet<Transfer> Transfers { get; set; }
+
 
 
         public KudoContext()
