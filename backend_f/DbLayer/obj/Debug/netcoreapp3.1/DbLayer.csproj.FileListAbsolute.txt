@@ -10,3 +10,15 @@ C:\Users\filips.zoltners\Source\Repos\Kudos-Shop\backend\DbLayer\obj\Debug\netco
 C:\Users\filips.zoltners\Source\Repos\Kudos-Shop\backend\DbLayer\obj\Debug\netcoreapp3.1\DbLayer.dll
 C:\Users\filips.zoltners\Source\Repos\Kudos-Shop\backend\DbLayer\obj\Debug\netcoreapp3.1\DbLayer.pdb
 C:\Users\filips.zoltners\Source\Repos\Kudos-Shop\backend\DbLayer\obj\Debug\netcoreapp3.1\DbLayer.genruntimeconfig.cache
+C:\Users\peteris.savickis\Documents\GitHub\Kudos-Shop\backend_f\DbLayer\bin\Debug\netcoreapp3.1\DbLayer.deps.json
+C:\Users\peteris.savickis\Documents\GitHub\Kudos-Shop\backend_f\DbLayer\bin\Debug\netcoreapp3.1\DbLayer.runtimeconfig.json
+C:\Users\peteris.savickis\Documents\GitHub\Kudos-Shop\backend_f\DbLayer\bin\Debug\netcoreapp3.1\DbLayer.runtimeconfig.dev.json
+C:\Users\peteris.savickis\Documents\GitHub\Kudos-Shop\backend_f\DbLayer\bin\Debug\netcoreapp3.1\DbLayer.dll
+C:\Users\peteris.savickis\Documents\GitHub\Kudos-Shop\backend_f\DbLayer\bin\Debug\netcoreapp3.1\DbLayer.pdb
+C:\Users\peteris.savickis\Documents\GitHub\Kudos-Shop\backend_f\DbLayer\obj\Debug\netcoreapp3.1\DbLayer.csprojAssemblyReference.cache
+C:\Users\peteris.savickis\Documents\GitHub\Kudos-Shop\backend_f\DbLayer\obj\Debug\netcoreapp3.1\DbLayer.AssemblyInfoInputs.cache
+C:\Users\peteris.savickis\Documents\GitHub\Kudos-Shop\backend_f\DbLayer\obj\Debug\netcoreapp3.1\DbLayer.AssemblyInfo.cs
+C:\Users\peteris.savickis\Documents\GitHub\Kudos-Shop\backend_f\DbLayer\obj\Debug\netcoreapp3.1\DbLayer.csproj.CoreCompileInputs.cache
+C:\Users\peteris.savickis\Documents\GitHub\Kudos-Shop\backend_f\DbLayer\obj\Debug\netcoreapp3.1\DbLayer.dll
+C:\Users\peteris.savickis\Documents\GitHub\Kudos-Shop\backend_f\DbLayer\obj\Debug\netcoreapp3.1\DbLayer.pdb
+C:\Users\peteris.savickis\Documents\GitHub\Kudos-Shop\backend_f\DbLayer\obj\Debug\netcoreapp3.1\DbLayer.genruntimeconfig.cache

@@ -5798,19 +5798,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\filips.zoltners\\.nuget\\packages\\": {}
+    "C:\\Users\\peteris.savickis\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\filips.zoltners\\Source\\Repos\\Kudos-Shop\\backend\\DbLayer\\DbLayer.csproj",
+      "projectUniqueName": "C:\\Users\\peteris.savickis\\Documents\\GitHub\\Kudos-Shop\\backend_f\\DbLayer\\DbLayer.csproj",
       "projectName": "DbLayer",
-      "projectPath": "C:\\Users\\filips.zoltners\\Source\\Repos\\Kudos-Shop\\backend\\DbLayer\\DbLayer.csproj",
-      "packagesPath": "C:\\Users\\filips.zoltners\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\filips.zoltners\\Source\\Repos\\Kudos-Shop\\backend\\DbLayer\\obj\\",
+      "projectPath": "C:\\Users\\peteris.savickis\\Documents\\GitHub\\Kudos-Shop\\backend_f\\DbLayer\\DbLayer.csproj",
+      "packagesPath": "C:\\Users\\peteris.savickis\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\peteris.savickis\\Documents\\GitHub\\Kudos-Shop\\backend_f\\DbLayer\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\filips.zoltners\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\peteris.savickis\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -5868,7 +5868,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
       }
     }
   }

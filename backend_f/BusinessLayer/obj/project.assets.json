@@ -5720,19 +5720,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\filips.zoltners\\.nuget\\packages\\": {}
+    "C:\\Users\\peteris.savickis\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\filips.zoltners\\Source\\Repos\\Kudos-Shop\\backend\\BusinessLayer\\BusinessLayer.csproj",
+      "projectUniqueName": "C:\\Users\\peteris.savickis\\Documents\\GitHub\\Kudos-Shop\\backend_f\\BusinessLayer\\BusinessLayer.csproj",
       "projectName": "BusinessLayer",
-      "projectPath": "C:\\Users\\filips.zoltners\\Source\\Repos\\Kudos-Shop\\backend\\BusinessLayer\\BusinessLayer.csproj",
-      "packagesPath": "C:\\Users\\filips.zoltners\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\filips.zoltners\\Source\\Repos\\Kudos-Shop\\backend\\BusinessLayer\\obj\\",
+      "projectPath": "C:\\Users\\peteris.savickis\\Documents\\GitHub\\Kudos-Shop\\backend_f\\BusinessLayer\\BusinessLayer.csproj",
+      "packagesPath": "C:\\Users\\peteris.savickis\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\peteris.savickis\\Documents\\GitHub\\Kudos-Shop\\backend_f\\BusinessLayer\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\filips.zoltners\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\peteris.savickis\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -5746,8 +5746,8 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "C:\\Users\\filips.zoltners\\Source\\Repos\\Kudos-Shop\\backend\\DbLayer\\DbLayer.csproj": {
-              "projectPath": "C:\\Users\\filips.zoltners\\Source\\Repos\\Kudos-Shop\\backend\\DbLayer\\DbLayer.csproj"
+            "C:\\Users\\peteris.savickis\\Documents\\GitHub\\Kudos-Shop\\backend_f\\DbLayer\\DbLayer.csproj": {
+              "projectPath": "C:\\Users\\peteris.savickis\\Documents\\GitHub\\Kudos-Shop\\backend_f\\DbLayer\\DbLayer.csproj"
             }
           }
         }
@@ -5776,7 +5776,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
       }
     }
   }
