@@ -1,18 +1,9 @@
-import React, { Component } from 'react';
-import { Media, Container, Row, Col } from "react-bootstrap";
-import DropdownSize from "../Components/DropdownSize"
+import React, { Component } from "react";
 
-import Paper from '../Components/Paper'
-
-
+import ShopComponent from "../Components/ShopComponent";
 
 export default class Shop extends Component {
-    render() {
-        return (
-            
-            //< DropdownSize/>
-             < Paper/>
-           
-        );
-    }
+  render() {
+    return <ShopComponent />;
+  }
 }

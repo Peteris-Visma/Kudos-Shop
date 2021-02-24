@@ -21,5 +21,7 @@ yarn add recharts
 
 yarn add @material-ui/core
 
+yarn add jquery
+
 yarn start 
 
