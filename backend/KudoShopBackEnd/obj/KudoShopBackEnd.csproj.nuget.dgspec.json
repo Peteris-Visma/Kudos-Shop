@@ -1,25 +1,21 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\andrejs.atkacuns\\source\\repos\\Kudos-Shopv2\\backend\\KudoShopBackEnd\\KudoShopBackEnd.csproj": {}
+    "C:\\Users\\raimonds.dacis\\Documents\\GitHub\\Kudos-Shop\\backend\\KudoShopBackEnd\\KudoShopBackEnd.csproj": {}
   },
   "projects": {
-    "C:\\Users\\andrejs.atkacuns\\source\\repos\\Kudos-Shopv2\\backend\\KudoShopBackEnd\\KudoShopBackEnd.csproj": {
+    "C:\\Users\\raimonds.dacis\\Documents\\GitHub\\Kudos-Shop\\backend\\KudoShopBackEnd\\KudoShopBackEnd.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\andrejs.atkacuns\\source\\repos\\Kudos-Shopv2\\backend\\KudoShopBackEnd\\KudoShopBackEnd.csproj",
+        "projectUniqueName": "C:\\Users\\raimonds.dacis\\Documents\\GitHub\\Kudos-Shop\\backend\\KudoShopBackEnd\\KudoShopBackEnd.csproj",
         "projectName": "KudoShopBackEnd",
-        "projectPath": "C:\\Users\\andrejs.atkacuns\\source\\repos\\Kudos-Shopv2\\backend\\KudoShopBackEnd\\KudoShopBackEnd.csproj",
-        "packagesPath": "C:\\Users\\andrejs.atkacuns\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\andrejs.atkacuns\\source\\repos\\Kudos-Shopv2\\backend\\KudoShopBackEnd\\obj\\",
+        "projectPath": "C:\\Users\\raimonds.dacis\\Documents\\GitHub\\Kudos-Shop\\backend\\KudoShopBackEnd\\KudoShopBackEnd.csproj",
+        "packagesPath": "C:\\Users\\raimonds.dacis\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\raimonds.dacis\\Documents\\GitHub\\Kudos-Shop\\backend\\KudoShopBackEnd\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\"
-        ],
         "configFilePaths": [
-          "C:\\Users\\andrejs.atkacuns\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Users\\raimonds.dacis\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
@@ -99,7 +95,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
         }
       }
     }

@@ -10,3 +10,15 @@ C:\Users\filips.zoltners\Source\Repos\Kudos-Shop\backend\BusinessLayer\obj\Debug
 C:\Users\filips.zoltners\Source\Repos\Kudos-Shop\backend\BusinessLayer\bin\Debug\netcoreapp3.1\DbLayer.dll
 C:\Users\filips.zoltners\Source\Repos\Kudos-Shop\backend\BusinessLayer\bin\Debug\netcoreapp3.1\DbLayer.pdb
 C:\Users\filips.zoltners\Source\Repos\Kudos-Shop\backend\BusinessLayer\obj\Debug\netcoreapp3.1\BusinessLayer.csproj.CopyComplete
+C:\Users\raimonds.dacis\Documents\GitHub\Kudos-Shop\backend_f\BusinessLayer\bin\Debug\netcoreapp3.1\BusinessLayer.deps.json
+C:\Users\raimonds.dacis\Documents\GitHub\Kudos-Shop\backend_f\BusinessLayer\bin\Debug\netcoreapp3.1\BusinessLayer.dll
+C:\Users\raimonds.dacis\Documents\GitHub\Kudos-Shop\backend_f\BusinessLayer\bin\Debug\netcoreapp3.1\BusinessLayer.pdb
+C:\Users\raimonds.dacis\Documents\GitHub\Kudos-Shop\backend_f\BusinessLayer\bin\Debug\netcoreapp3.1\DbLayer.dll
+C:\Users\raimonds.dacis\Documents\GitHub\Kudos-Shop\backend_f\BusinessLayer\bin\Debug\netcoreapp3.1\DbLayer.pdb
+C:\Users\raimonds.dacis\Documents\GitHub\Kudos-Shop\backend_f\BusinessLayer\obj\Debug\netcoreapp3.1\BusinessLayer.csprojAssemblyReference.cache
+C:\Users\raimonds.dacis\Documents\GitHub\Kudos-Shop\backend_f\BusinessLayer\obj\Debug\netcoreapp3.1\BusinessLayer.AssemblyInfoInputs.cache
+C:\Users\raimonds.dacis\Documents\GitHub\Kudos-Shop\backend_f\BusinessLayer\obj\Debug\netcoreapp3.1\BusinessLayer.AssemblyInfo.cs
+C:\Users\raimonds.dacis\Documents\GitHub\Kudos-Shop\backend_f\BusinessLayer\obj\Debug\netcoreapp3.1\BusinessLayer.csproj.CoreCompileInputs.cache
+C:\Users\raimonds.dacis\Documents\GitHub\Kudos-Shop\backend_f\BusinessLayer\obj\Debug\netcoreapp3.1\BusinessLayer.csproj.CopyComplete
+C:\Users\raimonds.dacis\Documents\GitHub\Kudos-Shop\backend_f\BusinessLayer\obj\Debug\netcoreapp3.1\BusinessLayer.dll
+C:\Users\raimonds.dacis\Documents\GitHub\Kudos-Shop\backend_f\BusinessLayer\obj\Debug\netcoreapp3.1\BusinessLayer.pdb
