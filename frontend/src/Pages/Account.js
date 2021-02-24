@@ -74,7 +74,7 @@ const Account = () => {
     </div>     
     <div id="div2">  
         <ResponsiveContainer width="100%" height={300} >
-            <LineChart width={1500} height={400} data={data} margin={{ top: 50, right: 50, bottom: 0, left: 200 }}>
+            <LineChart width={1000} height={400} data={data} margin={{ top: 50, right: 50, bottom: 0, left: 200 }}>
                 <Line type="monotone" dataKey="Kudos" strokeWidth={4} stroke="#ec043c" />
                     <CartesianGrid stroke="#ccc"  />
                         <XAxis dataKey="Date"  />

@@ -75,7 +75,7 @@ width: 35px;
   
 }
 #div1 {
-  width: 300px;
+  width: auto;
     float:left; /* add this */
     
 }
