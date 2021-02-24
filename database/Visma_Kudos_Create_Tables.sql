@@ -38,3 +38,10 @@ CREATE TABLE Product (
 	isAvailable bit NOT NULL,
 	ID_Property int NOT NULL FOREIGN KEY REFERENCES _Property(Property_ID)
 );
+
+CREATE TABLE Purchase(
+Purchase_ID int NOT NULL IDENTITY(1,1) PRIMARY KEY,
+ID_Product int NOT NULL FOREIGN KEY REFERENCES Product (Product_ID),
+ID_User int NOT NULL FOREIGN KEY REFERENCES _User (_User_ID),
+isApproved bit NOT NULL
+)
