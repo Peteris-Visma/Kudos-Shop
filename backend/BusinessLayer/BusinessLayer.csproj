@@ -5,10 +5,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Models\Output\" />
-  </ItemGroup>
-
-  <ItemGroup>
     <ProjectReference Include="..\DbLayer\DbLayer.csproj" />
   </ItemGroup>
 

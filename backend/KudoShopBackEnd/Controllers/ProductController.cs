@@ -17,5 +17,26 @@ namespace KudoShopBackEnd.Controllers
             return NoContent();
         }
 
+
+
+        [HttpDelete]
+        [Route("DeleteProducts")]
+
+        public void RemoveProduct(int id)
+        {
+            var handler = new ProductService();
+            handler.Remove(id);
+        
+        }
+
+        [HttpGet]
+        [Route("GetProducts")]
+
+        public IActionResult GetProducts()
+        {
+            var handler = new ProductService();
+            var products = handler.GetAll();
+            return Ok(products);
+        }
     }
 }
