@@ -6,7 +6,9 @@ import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import $ from "jquery";
 import '../App.css';
-import { amount } from '../Components/Login/Login';
+import  amount  from '../Components/Login/Login';
+import  username   from '../Components/Login/Login';
+import  usersurname   from '../Components/Login/Login';
 import Logo from '../Components/KP.png';
 
 
@@ -23,10 +25,10 @@ const Account = () => {
     {Number: 2,Date: '17-02-2021 12:30', Remaining: 467, KudosSpent: 32, Description: 'Umbrella', Status: 'Completed'},
     {Number: 1,Date: '18-02-2021 18:47', Remaining: 455, KudosSpent: 12, Description: '3D printing', Status: 'Completed'},
         ]
-        const user = [
-        {Name: 'Roberts', Surname: 'Kartenko', KudosWallet: 567},
         
-            ]
+            window.nameVar = username 
+            window.surnameVar = usersurname
+            window.balanceVar = amount
     
     const renderInfo = (Info, index) => {
         return (
@@ -40,29 +42,30 @@ const Account = () => {
         )
     }
 
-    $.ajax({
-        url:"https://localhost:44324/api/User/Login",
-        type:"POST",
-        //data:JSON.stringify({ Email: this.state.username, password: this.state.password }),
-        contentType:"application/json; charset=utf-8",
-        dataType:"json",
-        success: (msg)=>{
-          localStorage.setItem("token",msg.token);
-        },
-    error: (XMLHttpRequest, textStatus, errorThrown)=> {console.log(XMLHttpRequest, textStatus, errorThrown);
-      //toast.error('Email or password is not correct')
-    }
-      });
+    // $.ajax({
+    //     url:"https://localhost:5001/api/User/Login",
+    //     type:"POST",
+    //     //data:JSON.stringify({ Email: this.state.username, password: this.state.password }),
+    //     contentType:"application/json; charset=utf-8",
+    //     dataType:"json",
+    //     success: (msg)=>{
+    //       localStorage.setItem("token",msg.token);
+    //     },
+    // error: (XMLHttpRequest, textStatus, errorThrown)=> {console.log(XMLHttpRequest, textStatus, errorThrown);
+    //   //toast.error('Email or password is not correct')
+    // }
+    //   });
 
     const FlippyStyle = {
         width: '250px',
         height: '150px',
         textAlign: 'center',
         color: 'Black',
-        fontFamily: 'sans-serif',
+        fontFamily: 'sans-serif,',
         fontSize: '25px',
         justifyContent: 'center',
-        backgroundColor: '#8f8f8f',   
+        background: 'rgb(244,132,132)',
+        background: 'linear-gradient(90deg, rgba(244,132,132,1) 7%, rgba(123,184,236,1) 51%, rgba(244,132,132,1) 97%)',   
         }
 
         const FlippyToggle = {
@@ -79,12 +82,12 @@ const Account = () => {
         <Flippy flipOnHover={true}  flipOnClick={false}  flipDirection="horizontal"  style={FlippyToggle} id="card">
             <FrontSide style={FlippyStyle }>
                 <h4>Account info </h4>  
-                <h5>Name:Roberts </h5>
-                <h5>Surname:Kartenko </h5>   
+                <h5> <h5>Name:{window.nameVar} </h5> </h5>
+                <h5> <h5>Surname:{window.surnameVar} </h5> </h5>  
             </FrontSide>
 
             <BackSide style={FlippyStyle }>
-                <h4>You have </h4>  1 <img src={Logo} className="logo"/>  
+                <h4>You have </h4>  <p>{window.balanceVar} <img src={Logo} className="logo"/> </p>   
             </BackSide>
 
         </Flippy>
@@ -118,6 +121,8 @@ const Account = () => {
     <ToastContainer />
 </div>
         )
+
+        
 
     }
 
