@@ -8,6 +8,7 @@ import {
   Button
 } from "react-bootstrap";
 import logo from "./visma-logo.png";
+import KP from "./KP.png";
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 
 import Home from "../Pages/Home";
@@ -30,14 +31,12 @@ export default class Header extends Component {
         >
           <Container>
             <Navbar.Brand href="/home">
-              <img
-                src={logo}
-                height="28"
-                width="120"
-                className="d-inline-block align-top"
-                alt="Logo"
-              />{" "}
-              <span>Kudos System</span>
+              
+              <h4>
+              <img src={logo} height="28" width="120" className="d-inline-block align-top"alt="Logo"/>{" "}
+              Kudos Shop {" "}
+              <img src={KP} height="30" width="30" className="d-inline-block align-top"alt="KP"/> 
+                </h4>
             </Navbar.Brand>
             <Navbar.Toggle aria-controls="responsive-navbar-nav" />
             <Navbar.Collapse id="responsive-navbar-nav">
