@@ -10,7 +10,7 @@ import  amount  from '../Components/Login/Login';
 import  username   from '../Components/Login/Login';
 import  usersurname   from '../Components/Login/Login';
 import Logo from '../Components/KP.png';
-
+import axios from 'axios';
 
     
 const Account = () => {
@@ -29,7 +29,7 @@ const Account = () => {
             window.nameVar = username 
             window.surnameVar = usersurname
             window.balanceVar = amount
-    
+            var KP = 0
     const renderInfo = (Info, index) => {
         return (
             <tr key={index}>
@@ -55,6 +55,17 @@ const Account = () => {
     //   //toast.error('Email or password is not correct')
     // }
     //   });
+    axios({
+        method: 'get',
+        url: 'https://localhost:44324/api/User/GetMyKudos/1',
+        //responseType: 'stream'
+      })
+        .then(function (response) {
+          //toast.info('Works');
+          //console.log(response.data)
+          const KP = response.data;
+          console.log(KP)
+        });
 
     const FlippyStyle = {
         width: '250px',
@@ -87,7 +98,7 @@ const Account = () => {
             </FrontSide>
 
             <BackSide style={FlippyStyle }>
-                <h4>You have </h4>  <p>{window.balanceVar} <img src={Logo} className="logo"/> </p>   
+                <h4>You have </h4>  <p>{KP} <img src={Logo} className="logo"/> </p>   
             </BackSide>
 
         </Flippy>
