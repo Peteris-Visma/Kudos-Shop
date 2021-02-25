@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\filips.zoltners\\source\\repos\\Kudos-Shop\\backend_f\\DbLayer\\DbLayer.csproj": {}
+    "C:\\Users\\roberts.kartenko\\Documents\\GitHub\\Kudos-Shop\\backend_f\\DbLayer\\DbLayer.csproj": {}
   },
   "projects": {
-    "C:\\Users\\filips.zoltners\\source\\repos\\Kudos-Shop\\backend_f\\DbLayer\\DbLayer.csproj": {
+    "C:\\Users\\roberts.kartenko\\Documents\\GitHub\\Kudos-Shop\\backend_f\\DbLayer\\DbLayer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\filips.zoltners\\source\\repos\\Kudos-Shop\\backend_f\\DbLayer\\DbLayer.csproj",
+        "projectUniqueName": "C:\\Users\\roberts.kartenko\\Documents\\GitHub\\Kudos-Shop\\backend_f\\DbLayer\\DbLayer.csproj",
         "projectName": "DbLayer",
-        "projectPath": "C:\\Users\\filips.zoltners\\source\\repos\\Kudos-Shop\\backend_f\\DbLayer\\DbLayer.csproj",
-        "packagesPath": "C:\\Users\\filips.zoltners\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\filips.zoltners\\source\\repos\\Kudos-Shop\\backend_f\\DbLayer\\obj\\",
+        "projectPath": "C:\\Users\\roberts.kartenko\\Documents\\GitHub\\Kudos-Shop\\backend_f\\DbLayer\\DbLayer.csproj",
+        "packagesPath": "C:\\Users\\roberts.kartenko\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\roberts.kartenko\\Documents\\GitHub\\Kudos-Shop\\backend_f\\DbLayer\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\filips.zoltners\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\roberts.kartenko\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [

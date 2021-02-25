@@ -20,13 +20,17 @@ namespace KudoShopBackEnd
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddDbContext<KudoContext>();
-            services.AddCors(o => o.AddPolicy("MyPolicy", builder =>
+            //services.AddCors(o => o.AddPolicy("MyPolicy", builder =>
+            //{
+            //    builder.WithOrigins("http://localhost:3000/")
+            //    .AllowAnyMethod()
+            //    .AllowAnyHeader()
+            //    .AllowCredentials();
+            //}));
+            services.AddCors(c =>
             {
-                builder.WithOrigins("http://localhost:3000")
-                .AllowAnyMethod()
-                .AllowAnyHeader()
-                .AllowCredentials();
-            }));
+                c.AddPolicy("AllowOrigin", options => options.AllowAnyOrigin().AllowAnyMethod().AllowAnyHeader());
+            });
             services.AddControllers();
         }
 
@@ -41,7 +45,7 @@ namespace KudoShopBackEnd
             app.UseHttpsRedirection();
 
             app.UseRouting();
-            app.UseCors("MyPolicy");
+            app.UseCors(options => options.AllowAnyOrigin());
 
             //app.UseAuthorization();
 

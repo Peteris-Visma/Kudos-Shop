@@ -1525,7 +1525,8 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v3.1",
         "dependencies": {
-          "DbLayer": "1.0.0"
+          "DbLayer": "1.0.0",
+          "Microsoft.EntityFrameworkCore.SqlServer": "5.0.3"
         },
         "compile": {
           "bin/placeholder/BusinessLayer.dll": {}
@@ -5836,19 +5837,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\filips.zoltners\\.nuget\\packages\\": {}
+    "C:\\Users\\roberts.kartenko\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\filips.zoltners\\source\\repos\\Kudos-Shop\\backend_f\\KudoShopBackEnd\\KudoShopBackEnd.csproj",
+      "projectUniqueName": "C:\\Users\\roberts.kartenko\\Documents\\GitHub\\Kudos-Shop\\backend_f\\KudoShopBackEnd\\KudoShopBackEnd.csproj",
       "projectName": "KudoShopBackEnd",
-      "projectPath": "C:\\Users\\filips.zoltners\\source\\repos\\Kudos-Shop\\backend_f\\KudoShopBackEnd\\KudoShopBackEnd.csproj",
-      "packagesPath": "C:\\Users\\filips.zoltners\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\filips.zoltners\\source\\repos\\Kudos-Shop\\backend_f\\KudoShopBackEnd\\obj\\",
+      "projectPath": "C:\\Users\\roberts.kartenko\\Documents\\GitHub\\Kudos-Shop\\backend_f\\KudoShopBackEnd\\KudoShopBackEnd.csproj",
+      "packagesPath": "C:\\Users\\roberts.kartenko\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\roberts.kartenko\\Documents\\GitHub\\Kudos-Shop\\backend_f\\KudoShopBackEnd\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\filips.zoltners\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\roberts.kartenko\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -5862,11 +5863,11 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "C:\\Users\\filips.zoltners\\source\\repos\\Kudos-Shop\\backend_f\\BusinessLayer\\BusinessLayer.csproj": {
-              "projectPath": "C:\\Users\\filips.zoltners\\source\\repos\\Kudos-Shop\\backend_f\\BusinessLayer\\BusinessLayer.csproj"
+            "C:\\Users\\roberts.kartenko\\Documents\\GitHub\\Kudos-Shop\\backend_f\\BusinessLayer\\BusinessLayer.csproj": {
+              "projectPath": "C:\\Users\\roberts.kartenko\\Documents\\GitHub\\Kudos-Shop\\backend_f\\BusinessLayer\\BusinessLayer.csproj"
             },
-            "C:\\Users\\filips.zoltners\\source\\repos\\Kudos-Shop\\backend_f\\DbLayer\\DbLayer.csproj": {
-              "projectPath": "C:\\Users\\filips.zoltners\\source\\repos\\Kudos-Shop\\backend_f\\DbLayer\\DbLayer.csproj"
+            "C:\\Users\\roberts.kartenko\\Documents\\GitHub\\Kudos-Shop\\backend_f\\DbLayer\\DbLayer.csproj": {
+              "projectPath": "C:\\Users\\roberts.kartenko\\Documents\\GitHub\\Kudos-Shop\\backend_f\\DbLayer\\DbLayer.csproj"
             }
           }
         }

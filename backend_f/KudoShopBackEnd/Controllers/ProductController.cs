@@ -1,11 +1,13 @@
 ﻿using BusinessLayer.Models.Input;
 using BusinessLayer.Services;
+using Microsoft.AspNetCore.Cors;
 using Microsoft.AspNetCore.Mvc;
 
 namespace KudoShopBackEnd.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
+    [EnableCors("AllowOrigin")]
     public class ProductController:ControllerBase
     {
         [HttpPost]
