@@ -7,6 +7,7 @@ import ButtonBase from "@material-ui/core/ButtonBase";
 import Button from "@material-ui/core/Button";
 import "../Pages/Shop";
 import { withStyles } from "@material-ui/core/styles";
+import '../App.css';
 // -------------------Import Images
 import umbrellaImg from "../assets/umbrella.jpg";
 import waterproofBagImg from "../assets/waterproofBag.jpg";
@@ -18,6 +19,7 @@ import BlackBlueBuffImg from "../assets/BlackBlueBuff.jpg";
 import ShoppingBagImg from "../assets/ShoppingBag.jpg";
 import ThreeDPrintingImg from "../assets/ThreeDPrinting.jpg";
 import TshirtEatSleepImg from "../assets/TshirtEatSleep.jpg";
+import Logo from './KP.png';
 
 
 const useStyles = (theme) => ({
@@ -175,7 +177,7 @@ class PaperComponent extends Component {
                         {this.state.name1}
                       </Typography>
                       <Typography variant="subtitle2" color="textPrimary" mb-6>
-                        12 KUDOS
+                        <h4>12 <img src={Logo} className="logoShop"/></h4> 
                       </Typography>
                     </Grid>
                     <Grid item xs={12}>
@@ -229,7 +231,7 @@ class PaperComponent extends Component {
                         Black color T-shirt with Visma logo
                       </Typography>
                       <Typography variant="subtitle2" color="textPrimary">
-                        12 KUDOS
+                      <h4>12 <img src={Logo} className="logoShop"/></h4> 
                       </Typography>
                     </Grid>
                     <Grid item xs={12}>
@@ -284,7 +286,7 @@ class PaperComponent extends Component {
                         Black color shopping bag with Visma logo
                       </Typography>
                       <Typography variant="subtitle2" color="textPrimary">
-                        5 KUDOS
+                      <h4>5 <img src={Logo} className="logoShop"/></h4> 
                       </Typography>
                     </Grid>
                     <Grid item>
@@ -328,7 +330,7 @@ class PaperComponent extends Component {
                         Black or Blue color buff with Visma logo
                       </Typography>
                       <Typography variant="subtitle2" color="textPrimary">
-                        6 KUDOS
+                      <h4>6 <img src={Logo} className="logoShop"/></h4> 
                       </Typography>
                     </Grid>
                     <Grid item xs={12}>
@@ -434,7 +436,7 @@ class PaperComponent extends Component {
                         Dark blue color hoodie
                       </Typography>
                       <Typography variant="subtitle2" color="textPrimary">
-                        25 KUDOS
+                      <h4>25 <img src={Logo} className="logoShop"/></h4> 
                       </Typography>
                     </Grid>
                     <Grid item xs={12}>
@@ -487,7 +489,7 @@ class PaperComponent extends Component {
                         Universal size waterproof bag
                       </Typography>
                       <Typography variant="subtitle2" color="textPrimary">
-                        6 KUDOS
+                      <h4>6 <img src={Logo} className="logoShop"/></h4> 
                       </Typography>
                     </Grid>
                     <Grid item>
@@ -531,7 +533,7 @@ class PaperComponent extends Component {
                         Blue color umbrella
                       </Typography>
                       <Typography variant="subtitle2" color="textPrimary">
-                        25 KUDOS
+                      <h4>25 <img src={Logo} className="logoShop"/></h4> 
                       </Typography>
                     </Grid>
                     <Grid item>
