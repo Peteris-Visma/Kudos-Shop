@@ -17,6 +17,7 @@ import Transactions from "../Pages/Transactions";
 import Account from "../Pages/Account";
 import Policy from "../Pages/Policy";
 import Login from "./Login/Login";
+import AccountInfo from "../Pages/AccountInfo";
 
 export default class Header extends Component {
   render() {
@@ -46,6 +47,8 @@ export default class Header extends Component {
                 <Nav.Link href="/transactions"> Transactions </Nav.Link>
                 <Nav.Link href="/account"> Account </Nav.Link>
                 <Nav.Link href="/policy"> Policy </Nav.Link>
+                <Nav.Link href="/accountInfo"> Info </Nav.Link>
+
               </Nav>
               <Form inline>
                 <FormControl
@@ -65,6 +68,7 @@ export default class Header extends Component {
             <Route exact path="/shop" component={Shop} />
             <Route exact path="/transactions" component={Transactions} />
             <Route exact path="/account" component={Account} />
+            <Route exact path="/accountInfo" component={AccountInfo} />
             <Route exact path="/policy" component={Policy} />
             <Route exact path="/" component={Login} />
           </Switch>
