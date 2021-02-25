@@ -17,7 +17,6 @@ namespace DbLayer.Entities
         public string Description { get; set; }
         [Required]
         public DateTime DateTime { get; set; }
-        [Required]
         public bool Approve { get; set; }
     }
 }
