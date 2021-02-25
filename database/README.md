@@ -16,7 +16,7 @@ Visma Labs Kudos shop database
   
     4.2. Rename the Database in the first line, for example, CREATE DATABASE VismaKudos1;
 
-5. If you get error like "There is already object named ..." :
+5. If you get error like "There is already object named ..." or DB has no tables:
 
     5.1. Delete line "CREATE DATABASE VismaKudos" from script
 
