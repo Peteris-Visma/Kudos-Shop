@@ -62,6 +62,8 @@ namespace BusinessLayer.Services
             var result = new LoginResult();
             result.Token = UpdateToken(user, db);//temperary
             result.Username = user.Name;//temperary
+            result.Usersurname = user.Surname;//temperary
+            result.Balance = user.Balance;//temperary
             return result;
         }
 

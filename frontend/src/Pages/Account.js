@@ -2,8 +2,11 @@ import React, { Component } from 'react'
 import {ResponsiveContainer, LineChart, Line, CartesianGrid, XAxis, YAxis, Tooltip } from 'recharts';
 import * as ReactBootstrap from 'react-bootstrap';
 import Flippy, { FrontSide, BackSide } from 'react-flippy';
-
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
+import $ from "jquery";
 import '../App.css';
+import { amount } from '../Components/Login/Login';
 import Logo from '../Components/KP.png';
 
 
@@ -37,6 +40,20 @@ const Account = () => {
         )
     }
 
+    $.ajax({
+        url:"https://localhost:44324/api/User/Login",
+        type:"POST",
+        //data:JSON.stringify({ Email: this.state.username, password: this.state.password }),
+        contentType:"application/json; charset=utf-8",
+        dataType:"json",
+        success: (msg)=>{
+          localStorage.setItem("token",msg.token);
+        },
+    error: (XMLHttpRequest, textStatus, errorThrown)=> {console.log(XMLHttpRequest, textStatus, errorThrown);
+      //toast.error('Email or password is not correct')
+    }
+      });
+
     const FlippyStyle = {
         width: '250px',
         height: '150px',
@@ -67,7 +84,7 @@ const Account = () => {
             </FrontSide>
 
             <BackSide style={FlippyStyle }>
-                <h4>You have </h4>  455 <img src={Logo} className="logo"/>  
+                <h4>You have </h4>  1 <img src={Logo} className="logo"/>  
             </BackSide>
 
         </Flippy>
@@ -98,7 +115,7 @@ const Account = () => {
             {data.map(renderInfo)}
         </tbody>
     </ReactBootstrap.Table>
-
+    <ToastContainer />
 </div>
         )
 

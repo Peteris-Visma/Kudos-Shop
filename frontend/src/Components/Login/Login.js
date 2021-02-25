@@ -10,6 +10,7 @@ class LoginPage extends Component {
     this.state = {
       username: '',
       password: '',
+      amount:'',
       error: '',
     };
 
@@ -43,7 +44,11 @@ class LoginPage extends Component {
       dataType:"json",
       success: (msg)=>{
         localStorage.setItem("token",msg.token);
-        toast.success("Hello "+msg.username);
+        //localStorage.setItem("balance",msg.balance);
+        toast.success("Hello "+msg.username+" "+msg.usersurname);
+        this.state.amount = msg.balance;
+        console.log(this.state.amount);
+        //module.exports=(this.state.amount);
         setTimeout(() => {
           window.location.href = "/home";
         }, 1000);
@@ -99,8 +104,8 @@ class LoginPage extends Component {
                 {this.state.error}
                 </h3>
             }
-            <label>User Name&nbsp;&nbsp;</label>
-            <input type="text" data-test="username" value={this.state.username} onChange={this.handleUserChange} />
+            <label>Email&nbsp;&nbsp;</label>
+            <input type="text" data-test="email" value={this.state.username} onChange={this.handleUserChange} />
             <div></div>
             <label>Password&nbsp;&nbsp;</label>
             <input type="password" data-test="password" value={this.state.password} onChange={this.handlePassChange} />
