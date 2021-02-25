@@ -31,7 +31,7 @@ export default class Header extends Component {
           variant="light"
         >
           <Container>
-            <Navbar.Brand href="/home">
+            <Navbar.Brand href="/shop">
               
               <h4>
               <img src={logo} height="28" width="120" className="d-inline-block align-top"alt="Logo"/>{" "}
@@ -50,14 +50,7 @@ export default class Header extends Component {
                 <Nav.Link href="/accountInfo"> Info </Nav.Link>
 
               </Nav>
-              <Form inline>
-                <FormControl
-                  type="text"
-                  placeholder="Search"
-                  className="mr-sm-2"
-                />
-                <Button variant="outline-info">Search</Button>
-              </Form>
+              
             </Navbar.Collapse>
           </Container>
         </Navbar>

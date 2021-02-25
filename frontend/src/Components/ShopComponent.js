@@ -20,6 +20,7 @@ import ShoppingBagImg from "../assets/ShoppingBag.jpg";
 import ThreeDPrintingImg from "../assets/ThreeDPrinting.jpg";
 import TshirtEatSleepImg from "../assets/TshirtEatSleep.jpg";
 import Logo from './KP.png';
+import { ajax } from "jquery";
 
 
 const useStyles = (theme) => ({
@@ -90,7 +91,9 @@ class PaperComponent extends Component {
       [event.target.name]: event.target.value,
     });
   }
-
+  
+  
+  
   handleClick(e) {
     e.preventDefault();
     console.log("Item Nr.1 T-shirt with print (Eat, Sleep, Code, Repeat)");
@@ -133,7 +136,7 @@ class PaperComponent extends Component {
   }
   handleClick9(e) {
     e.preventDefault();
-    console.log("Item Nr.10 3D printing");
+    console.log("Item Nr.9 3D printing");
     console.log(this.state["desc9"]);
   }
   handleClick10(e) {
@@ -141,6 +144,8 @@ class PaperComponent extends Component {
     console.log("Item Nr.9 Electronics");
     console.log(this.state["desc10"]);
   }
+
+    
 
   render() {
     const { classes } = this.props;
@@ -677,4 +682,5 @@ class PaperComponent extends Component {
     );
   }
 }
+
 export default withStyles(useStyles)(PaperComponent);
