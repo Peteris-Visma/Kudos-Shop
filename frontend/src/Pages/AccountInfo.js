@@ -33,6 +33,14 @@ class AccountInfo extends Component {
               }, 2000);
         });
     }
+    loadOut=()=>{
+        localStorage.clear();
+        toast.success("LogOut");
+        setTimeout(() => {
+            window.location.href = "/";
+          }, 1000);
+    }
+
 
     render() {
 
@@ -41,6 +49,11 @@ class AccountInfo extends Component {
                 <div className="row mt-3">
                     <div className="text-center col-sm-3">
                         <img src={KP}></img>
+                        <div>
+                            <button className="btn btn-danger" onClick={this.loadOut}>
+                                LogOut
+                            </button>
+                        </div>
                     </div>
                     <div className="col-sm-4">
                         <div className="row mt-2">
@@ -61,8 +74,8 @@ class AccountInfo extends Component {
                         <div className="row mt-2">
                             <div className="col-sm-12">
                         <button className="btn btn-secondary" onClick={this.loadInfo}>
-  Refresh
-</button>
+                            Refresh
+                        </button>
 </div>
                         </div>
                     </div>

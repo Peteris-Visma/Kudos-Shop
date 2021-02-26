@@ -56,22 +56,20 @@ export default class Transaction extends React.Component {
 
     onSendForm(e) {
         e.preventDefault();
-        this.state.userName1 = 1
-        this.state.userName2 = 2
-        this.state.amount1 = 5
         console.log(this.state.userName)
         console.log(this.state.amount)
         axios({
             method: 'post',
             url: 'https://localhost:44324/api/User/SendKudos',
             data: {
-              SenderId:  this.state.userName1,
-              RecieverId: this.state.userName2,
-              Amount:this.state.amount1
+              SenderId:  1,
+              RecieverId: 2,
+              Amount:5
             }
         })
         .then(function (response) {
             console.log(response);
+            toast.info("Kudos have been send!")
           })
         .catch(function (error) {
             console.log(error);
