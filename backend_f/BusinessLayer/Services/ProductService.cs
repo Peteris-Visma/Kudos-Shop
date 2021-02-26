@@ -39,7 +39,7 @@ namespace BusinessLayer.Services
         public List<ShopProductModel> GetAll()
         {
             using var context = new KudoContext();
-            return context.Products.Select(x => new ShopProductModel(x.Id, x.Name, x.Price, x.IsAvailable, x.Picture)).ToList();
+            return context.Products.Select(x => new ShopProductModel(x.Id, x.Name, x.Price, x.IsAvailable, x.Picture, x.ImageSrc)).ToList();
         }
     }
 }
