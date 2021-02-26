@@ -49,6 +49,15 @@ namespace BusinessLayer.Services
             db.SaveChanges();
         }
 
+        public object GetInfo(string token)
+        {
+            using var db = new KudoContext();
+            var user = db.Users.FirstOrDefault(x => x.Token == token);
+            if (user == null)
+                throw new Exception("User not found");
+            return new UserBalanceInfoModel(user);
+        }
+
         public LoginResult Login(LoginModel model)
         {
             if (model == null || string.IsNullOrEmpty(model.Email) || string.IsNullOrEmpty(model.Password))

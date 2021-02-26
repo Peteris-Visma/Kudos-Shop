@@ -86,8 +86,25 @@ export default class Transaction extends React.Component {
 
     onRequestForm(e) {
         e.preventDefault();
-        console.log(this.state)
-        toast.info("Kudos have requested!")
+        axios({
+            method: 'post',
+            url: 'https://localhost:44324/api/TransferRequest/AddTransfer',
+            data: {
+                FromUser: 1,
+                ToUSer: 2,
+                TransferAmount: 1,
+                Description: "Kudos please!",
+                DateTime: "2018-03-29",
+                Approve: false
+            }
+        })
+        .then(function (response) {
+            console.log(response);
+          })
+        .catch(function (error) {
+            console.log(error);
+        });
+        toast.info("Kudos have been requested!")
     }
 
     render() {

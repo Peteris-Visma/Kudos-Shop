@@ -20,6 +20,15 @@ namespace KudoShopBackEnd.Controllers
             return Ok(balance);
         }
 
+        [HttpGet]
+        [Route("GetInfo/{token}")]
+        public IActionResult GetInfo( string token)
+        {
+            var handler = new UserService();
+            var info = handler.GetInfo(token);
+            return Ok(info);
+        }
+
         [HttpPost]
         [Route("SendKudos")]
         public IActionResult SendKudos(SendKudosModel model)
