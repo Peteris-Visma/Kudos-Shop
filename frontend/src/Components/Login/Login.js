@@ -3,6 +3,9 @@ import '../../App.css';
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import $ from "jquery";
+import logo from "../visma-logo.png";
+import KP from "../KP.png";
+import WH from "../SPACE.png";
 
 class LoginPage extends Component {
   constructor() {
@@ -37,7 +40,7 @@ class LoginPage extends Component {
     //----------------------------------------------
 
     $.ajax({
-      url:"https://localhost:44324/api/User/Login",
+      url:"https://localhost:5001/api/User/Login",
       type:"POST",
       data:JSON.stringify({ Email: this.state.username, password: this.state.password }),
       contentType:"application/json; charset=utf-8",
@@ -60,7 +63,7 @@ class LoginPage extends Component {
 
 
     //request to backend
-    // $.post("https://localhost:44324/api/User/Login", { Email: this.state.username, Password: this.state.password })
+    // $.post("https://localhost:5001/api/User/Login", { Email: this.state.username, Password: this.state.password })
     //   .then((result) => {
     //     console.log(result);
     //   })
@@ -92,7 +95,7 @@ class LoginPage extends Component {
       <div className="Login">
         <div className="element"></div>
         <h4 className="d-flex justify-content-center align-items-center mb-3">
-             <span className="text-muted">Login</span>
+             
         </h4>
         <div className="elementOne"></div>
         <div className="login"> 
@@ -104,9 +107,13 @@ class LoginPage extends Component {
                 {this.state.error}
                 </h3>
             }
-            <label>Email&nbsp;&nbsp;</label>
-            <input type="text" data-test="email" value={this.state.username} onChange={this.handleUserChange} />
-            <div></div>
+            <span className="text-muted">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <img src={logo} height="28" width="120" className="d-inline-block align-top"alt="Logo"/> </span>
+            <h4>Welcome to Kudos Shop &nbsp; </h4>
+            <h4><img src={WH} height="1" width="10"  className="d-inline-block align-top"alt="Logo"/> </h4>
+            <label>Email&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+            <input type="text" data-test="email" value={this.state.username} onChange={this.handleUserChange}  />
+            <div ></div>
             <label>Password&nbsp;&nbsp;</label>
             <input type="password" data-test="password" value={this.state.password} onChange={this.handlePassChange} />
             <div></div>
@@ -117,6 +124,8 @@ class LoginPage extends Component {
       </div>
     );
   }
+  
+
 }
 
 export default LoginPage;
