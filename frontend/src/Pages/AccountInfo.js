@@ -2,6 +2,7 @@ import React, { Component } from 'react'
 import { ToastContainer, toast } from 'react-toastify';
 import $ from "jquery";
 import defImage from "../assets/Default/userDefault.jpg";
+import KP from "../Components/KP.png";
 
 
 class AccountInfo extends Component {
@@ -39,7 +40,7 @@ class AccountInfo extends Component {
             <div onLoad={this.loadInfo} className="container-fluid">
                 <div className="row mt-3">
                     <div className="text-center col-sm-3">
-                        <img src={defImage}></img>
+                        <img src={KP}></img>
                     </div>
                     <div className="col-sm-4">
                         <div className="row mt-2">
