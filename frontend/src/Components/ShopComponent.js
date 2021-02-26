@@ -7,6 +7,8 @@ import ButtonBase from "@material-ui/core/ButtonBase";
 import Button from "@material-ui/core/Button";
 import "../Pages/Shop";
 import { withStyles } from "@material-ui/core/styles";
+import $ from "jquery";
+import axios from 'axios';
 // -------------------Import Images
 import umbrellaImg from "../assets/umbrella.jpg";
 import waterproofBagImg from "../assets/waterproofBag.jpg";
@@ -19,6 +21,95 @@ import ShoppingBagImg from "../assets/ShoppingBag.jpg";
 import ThreeDPrintingImg from "../assets/ThreeDPrinting.jpg";
 import TshirtEatSleepImg from "../assets/TshirtEatSleep.jpg";
 
+class ProductsList extends React.Component {
+  constructor() {
+    super();
+    this.state = {
+      ProductData: []
+    }
+  }
+
+  componentDidMount() {
+    axios.get("https://localhost:44324/api/product/getproductlist").then(response => {
+      //console.log(response.data);  
+      this.setState({
+        ProductData: response.data
+      });
+    });
+  }
+
+  render() {
+
+    return (
+      <section>
+        <h1>Products List</h1>
+        <div>
+          <table>
+            <thead><tr><th>Product Id</th><th>Product Name</th><th>Product Price</th><th>Product available</th><td>Product picture</td></tr></thead>
+            <tbody>
+              {
+                this.state.ProductData.map((p, index) => {
+                  return <div>
+                     <Grid container spacing={3}>
+                    <Grid item xs={4}>
+                      <Paper >
+                        <Grid container spacing={2}>
+                          <Grid item>
+                            <Typography gutterBottom variant="h5">
+                              {p.nameP}
+                            </Typography>
+                            <ButtonBase>
+                              <img
+
+
+                                src={p.imageSrc}
+                              />
+
+
+                            </ButtonBase>
+                          </Grid>
+                          <Grid item xs={12} sm container>
+                            <Grid item xs container direction="column" spacing={2}>
+                              <Grid item xs>
+                                <Typography
+                                  variant="body2"
+                                  gutterBottom
+                                  style={{ whiteSpace: "pre-line" }}
+                                >
+                                  {p.name}
+                                </Typography>
+                                <Typography variant="subtitle2" color="textPrimary" mb-6>
+                                  {p.priceP}
+                                </Typography>
+                              </Grid>
+                              <Grid item xs={12}>
+                                <button
+                                  className="btn btn-danger btn-lg btn-lg"
+                                  type={"submit"}
+                                  onClick={this.handleClick}
+                                >
+                                  Buy
+                      </button>
+                              </Grid>
+                            </Grid>
+                          </Grid>
+                        </Grid>
+                      </Paper>
+                    </Grid>
+                    </Grid>
+                  </div>
+
+                })
+              }
+            </tbody>
+          </table>
+        </div>
+
+
+      </section>
+    )
+  }
+}
 
 const useStyles = (theme) => ({
   container: {
@@ -83,6 +174,7 @@ class PaperComponent extends Component {
     this.handleClick10 = this.handleClick10.bind(this);
   }
 
+
   onInputchange(event) {
     this.setState({
       [event.target.name]: event.target.value,
@@ -145,6 +237,7 @@ class PaperComponent extends Component {
 
     return (
       <div>
+        <ProductsList />
         <h2 className="text-center m-4">Shop</h2>
         {/* --------------1st item */}
         <Grid container spacing={3}>

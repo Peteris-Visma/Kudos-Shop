@@ -1,5 +1,6 @@
 ﻿using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace DbLayer.Entities
 {
@@ -15,6 +16,8 @@ namespace DbLayer.Entities
         [Required]
         public bool IsAvailable { get; set; }
         public string Picture { get; set; }
+        [NotMapped]
+        public string ImageSrc { get; set; }
         public virtual List<Purchase> Purchaseš { get; set; }
 
 

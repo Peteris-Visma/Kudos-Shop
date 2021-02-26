@@ -46,3 +46,15 @@ C:\Users\filips.zoltners\source\repos\Kudos-Shop\backend_f\BusinessLayer\obj\Deb
 C:\Users\filips.zoltners\source\repos\Kudos-Shop\backend_f\BusinessLayer\obj\Debug\netcoreapp3.1\BusinessLayer.csproj.CopyComplete
 C:\Users\filips.zoltners\source\repos\Kudos-Shop\backend_f\BusinessLayer\obj\Debug\netcoreapp3.1\BusinessLayer.dll
 C:\Users\filips.zoltners\source\repos\Kudos-Shop\backend_f\BusinessLayer\obj\Debug\netcoreapp3.1\BusinessLayer.pdb
+C:\Users\andrejs.atkacuns\Source\Repos\Kudos-Shopv6\backend_f\BusinessLayer\bin\Debug\netcoreapp3.1\BusinessLayer.deps.json
+C:\Users\andrejs.atkacuns\Source\Repos\Kudos-Shopv6\backend_f\BusinessLayer\bin\Debug\netcoreapp3.1\BusinessLayer.dll
+C:\Users\andrejs.atkacuns\Source\Repos\Kudos-Shopv6\backend_f\BusinessLayer\bin\Debug\netcoreapp3.1\BusinessLayer.pdb
+C:\Users\andrejs.atkacuns\Source\Repos\Kudos-Shopv6\backend_f\BusinessLayer\bin\Debug\netcoreapp3.1\DbLayer.dll
+C:\Users\andrejs.atkacuns\Source\Repos\Kudos-Shopv6\backend_f\BusinessLayer\bin\Debug\netcoreapp3.1\DbLayer.pdb
+C:\Users\andrejs.atkacuns\Source\Repos\Kudos-Shopv6\backend_f\BusinessLayer\obj\Debug\netcoreapp3.1\BusinessLayer.csprojAssemblyReference.cache
+C:\Users\andrejs.atkacuns\Source\Repos\Kudos-Shopv6\backend_f\BusinessLayer\obj\Debug\netcoreapp3.1\BusinessLayer.AssemblyInfoInputs.cache
+C:\Users\andrejs.atkacuns\Source\Repos\Kudos-Shopv6\backend_f\BusinessLayer\obj\Debug\netcoreapp3.1\BusinessLayer.AssemblyInfo.cs
+C:\Users\andrejs.atkacuns\Source\Repos\Kudos-Shopv6\backend_f\BusinessLayer\obj\Debug\netcoreapp3.1\BusinessLayer.csproj.CoreCompileInputs.cache
+C:\Users\andrejs.atkacuns\Source\Repos\Kudos-Shopv6\backend_f\BusinessLayer\obj\Debug\netcoreapp3.1\BusinessLayer.csproj.CopyComplete
+C:\Users\andrejs.atkacuns\Source\Repos\Kudos-Shopv6\backend_f\BusinessLayer\obj\Debug\netcoreapp3.1\BusinessLayer.dll
+C:\Users\andrejs.atkacuns\Source\Repos\Kudos-Shopv6\backend_f\BusinessLayer\obj\Debug\netcoreapp3.1\BusinessLayer.pdb

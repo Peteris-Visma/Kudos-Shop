@@ -3504,20 +3504,25 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\filips.zoltners\\.nuget\\packages\\": {}
+    "C:\\Users\\andrejs.atkacuns\\.nuget\\packages\\": {},
+    "C:\\Microsoft\\Xamarin\\NuGet\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\filips.zoltners\\source\\repos\\Kudos-Shop\\backend_f\\AutoTests\\AutoTests.csproj",
+      "projectUniqueName": "C:\\Users\\andrejs.atkacuns\\Source\\Repos\\Kudos-Shopv6\\backend_f\\AutoTests\\AutoTests.csproj",
       "projectName": "AutoTests",
-      "projectPath": "C:\\Users\\filips.zoltners\\source\\repos\\Kudos-Shop\\backend_f\\AutoTests\\AutoTests.csproj",
-      "packagesPath": "C:\\Users\\filips.zoltners\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\filips.zoltners\\source\\repos\\Kudos-Shop\\backend_f\\AutoTests\\obj\\",
+      "projectPath": "C:\\Users\\andrejs.atkacuns\\Source\\Repos\\Kudos-Shopv6\\backend_f\\AutoTests\\AutoTests.csproj",
+      "packagesPath": "C:\\Users\\andrejs.atkacuns\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\andrejs.atkacuns\\Source\\Repos\\Kudos-Shopv6\\backend_f\\AutoTests\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Microsoft\\Xamarin\\NuGet\\"
+      ],
       "configFilePaths": [
-        "C:\\Users\\filips.zoltners\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "C:\\Users\\andrejs.atkacuns\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp3.1"
